@@ -1,0 +1,400 @@
+body 
+{
+    background-color: #f3f5fc;
+    font-family: 'Inter', sans-serif;
+}
+
+footer{
+    text-align: center;
+    background-color: #0A3871;
+    height: 100px;
+    width: 72%;
+    font-size: large;
+    color: #e7ebf8;
+    padding-top: 50px;
+    margin: 20px 5%;
+    border-radius: 10px;
+
+}
+
+#btn_copiar:hover, #btn_encriptar:hover, #btn_desencriptar:hover
+{
+    background-color: #0a7135;
+    color: #e7ebf8;
+}
+
+@media only screen and (min-width: 801px) and (max-width: 4000px)
+{
+    header
+    {
+        margin-bottom: 35px;
+    }
+
+    body 
+    {
+        font-family: 'Inter', sans-serif;
+        box-sizing: content-box;
+        width: 100%;
+    }
+    
+    h1{
+        display: inline;
+        padding-left: 20%;
+    }
+    
+    #logoallura
+    {
+        float: left;
+        padding: 10px 0px 0px 6%;
+        width: 15px;
+        height: 25px;
+    }
+
+    .textareaA{
+        height: 500px;
+
+    }
+
+    #maincontainer
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 74%;
+        height: 650px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #left_side_container
+    {
+        margin-right: auto;
+        width: 75%;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 600px;
+    }
+    #disclaimer_area{
+        vertical-align: bottom;
+    }
+
+    #right_side_container
+    {
+        background-color: white;
+        padding: 10px;
+        border: #f3f5fc solid 1px;
+        border-radius: 20px;
+        width: 25%;
+        height: 600px;
+    }
+
+    #texto_a_ingresar{
+        padding-top: 16px;
+        font-size: 18px;
+        font-weight:600;
+        color: #0A3871;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 100%;
+        background-color: #f3f5fc;
+        border-style: none;
+    }
+
+    #texto_a_ingresarB{
+        font-size: 16px;
+        font-weight:500;
+        color: #0A3871;
+        margin-bottom: 75px;
+    }
+
+    #disclaimer_tipo_letra{
+        padding-top: 26px;
+        padding-left: 5px;
+        color: #495057;
+        font-size: 12px;
+    }
+
+    #disclaimer_img{
+        padding-top: 10px;
+        padding-right: 5px;
+        float: left;
+        width: 20px;
+        height: 20px;
+    }
+
+    #button_area
+    {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        gap: 5%;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .btn_selector{
+        width: 90%;
+        height: 40px;
+        border-radius: 12px;
+        padding: 16px;
+        margin-bottom: 16px;
+        font-weight: 600;
+        border: 1px solid #0A3871;
+    }
+
+    #btn_encriptar
+    {
+        background-color: #0A3871;
+        color: white;
+    }
+
+    #btn_desencriptar
+    {
+        color: #0A3871;
+        background-color: #f3f5fc;
+    }
+
+    #btn_copiar
+    {
+        margin-top: 47px;
+        color: #0A3871;
+        background-color: white;
+        width: 100%;
+    }
+}
+
+ @media only screen and (min-width: 501px) and (max-width:800px)
+{
+    header
+    {
+        margin-bottom: 35px;
+    }
+
+    
+    h1{
+        display: inline-block;
+        text-align: end;
+        padding: 5px 10%;
+        font-size: 22px;
+    }
+
+    body 
+    {
+        font-family: 'Inter', sans-serif;
+        box-sizing: content-box;
+        width: 100%;
+    }
+    
+    #logoallura
+    {
+        margin: 10px 0 0 5%;
+        width: 15px;
+        height: 25px;
+    }
+
+    #maincontainer
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 72%;
+        
+    }
+
+    #left_side_container
+    {
+        margin-right: auto;
+    }
+
+    #right_side_container
+    {
+        background-color: white;
+        border: #f3f5fc solid 1px;
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 20px;
+        margin: auto;
+        width: 100%;
+    }
+
+    #texto_a_ingresar{
+        padding-top: 16px;
+        font-size: 18px;
+        font-weight:600;
+        color: #0A3871;
+        width: 100%;
+        height: 300px;
+        background-color: #e7ebf8;
+        border-style: none;
+    }
+
+    #texto_a_ingresarB{
+        font-size: 16px;
+        font-weight:400;
+        color: #0A3871;
+        margin-bottom: 75px;
+    }
+
+    #disclaimer_tipo_letra{
+        padding-top: 10px;
+        padding-left: 5px;
+        color: #495057;
+        font-size: 12px;
+    }
+
+    #disclaimer_img{
+        padding-top: 10px;
+        padding-right: 5px;
+        float: left;
+        width: 20px;
+        height: 20px;
+    }
+
+    #button_area
+    {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        gap: 5%;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .btn_selector{
+        width: 90%;
+        height: 40px;
+        border-radius: 12px;
+        padding: 16px;
+        margin-bottom: 16px;
+        font-weight: 600;
+        border: 1px solid #0A3871;
+    }
+
+    #btn_encriptar
+    {
+        background-color: #0A3871;
+        color: white;
+    }
+
+    #btn_desencriptar
+    {
+        color: #0A3871;
+        background-color: #f3f5fc;
+    }
+
+    #btn_copiar
+    {
+        color: #0A3871;
+        background-color: white;
+        width: 100%;
+    }
+} 
+
+/* Extra small devices (phones, 500px and down) */
+@media only screen and (max-width: 500px) 
+{
+    body
+    {
+        box-sizing: content-box;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 18px;
+        padding-left: 10%;
+    }
+    
+    #logoallura
+    {
+        margin: 10px 0 0 6%;
+        width: 15px;
+        height: 25px;
+    }
+
+    #maincontainer
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 73%;
+        box-sizing: content-box;
+    }
+
+    #left_side_container
+    {
+        margin-right: auto;
+    }
+
+
+    #texto_a_ingresar{
+        padding-top: 16px;
+        font-size: 18px;
+        font-weight:600;
+        color: #0A3871;
+        width: 100%;
+        height: 200px;
+        background-color: #e7ebf8;
+        border-style: none;
+    }
+
+    #texto_a_ingresarB{
+        padding-top: 16px;
+        font-size: 16px;
+        font-weight:400;
+        color: #0A3871;
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        border-style: none;
+        border-radius: 10px;
+        padding-left: 5px;
+    }
+
+    #disclaimer_tipo_letra{
+        padding-left: 5px;
+        padding-bottom: 10px;
+        color: #495057;
+        font-size: 11px;
+    }
+
+    #disclaimer_img{
+        padding-right: 5px;
+        float: left;
+        width: 10px;
+        height: 10px;
+    }
+
+    #button_area
+    {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 100%;
+    }
+
+    .btn_selector{
+        width: 90%;
+        height: 40px;
+        border-radius: 12px;
+        padding: 16px;
+        margin-bottom: 16px;
+        font-weight: 600;
+        border: 1px solid #0A3871;
+    }
+
+    #btn_encriptar
+    {
+        background-color: #0A3871;
+        color: white;
+    }
+
+    #btn_desencriptar
+    {
+        color: #0A3871;
+        background-color: #f3f5fc;
+    }
+
+    #btn_copiar
+    {
+        color: #0A3871;
+        background-color: white;
+    }
+}

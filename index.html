@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+        </style>
+    <title>Allura Challenge - Encriptador de Texto</title>
+</head>
+<body>
+    <script type="text/javascript" src="javascript/main.js"></script>
+    <header>                 
+        <img id="logoallura" src="images/logo.png" alt="logodealura">
+        <h1>
+            MENSAJE SECRETO - ALURA
+        </h1>
+    </header>
+    <main>
+        <div id="maincontainer">
+
+            <div id="left_side_container">
+                <div class="textareaA">
+                    <textarea id="texto_a_ingresar" onclick="clickEnTextBox()"  placeholder="Ingrese su mensaje y pulse el boton para encriptar o desencriptar..."></textarea>
+                </div>
+                <div id="disclaimer_area">
+                    <img id="disclaimer_img" src="images/disclaimer.png" alt="signodeexclamacion">
+                    <p id="disclaimer_tipo_letra">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div id="button_area">
+                    <button class="btn_selector" id="btn_encriptar" onclick="encriptar()">Encriptar</button>
+                    <button class="btn_selector" id="btn_desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </div>
+            
+            <div id="right_side_container">
+                <div class="textareaA">
+                    <p id="texto_a_ingresarB">Aqui podra ver su mensaje cifrado o descifrado</p>
+                </div>
+                    <div id="button_area">
+                        <button class="btn_selector" id="btn_copiar" onclick="copiar()">Copiar</button>
+                    </div>
+            </div>
+    
+        </div>
+    </main>
+</body>
+<footer>
+    <div id="footercontainer">
+        <p>&#169 Jorge Luis Gimenez Punta - 2022.</p>
+    </div>
+</footer>
+</html>
